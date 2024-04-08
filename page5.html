@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="unfiy.css">
+    <style>
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+        .product-info {
+            padding: 20px;
+        }
+        .product-info h1 {
+            font-size: 2.5em;
+            color: #4CAF50;
+            margin: 0;
+        }
+        .product-info p {
+            font-size: 1.2em;
+            color: #555;
+            margin: 10px 0;
+        }
+        .buy-now {
+            margin-top: 20px;
+        }
+        .buy-now button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+        .buy-now button:hover {
+            background-color: #45a049;
+        }
+        .product-feature {
+            background: #fff;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .product-feature img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .review {
+            margin-top: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .review h3 {
+            color: #e8491d;
+        }
+        .call-to-action {
+            background: #e8491d;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .call-to-action h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .call-to-action a {
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .call-to-action a:hover {
+            background: #e8491d;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ecommerce Website Blog</h1>
+    <img src="1.png" alt="">
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="page3.html">Shop</a>
+    <a href="page4.html">About</a>
+    <a href="page2.html">Contact</a>
+    <a href="page5.html">Blog</a>
+</nav>
+
+<main>
+    <article>
+        <div class="container">
+            <img class="product-image" src="dualsense.webp" alt="Dual Sense Wireless Controller">
+            
+            <div class="product-info">
+                <h1>DUAL SENSE Wireless Controller</h1>
+                <p>$40.00</p>        <p>Color:</p>        <p>Wireless Gaming Controller, Joystick Gamepad With Dual-Vibration PC Game Controller Compatible With PS5, Switch, Windows 10/8/7 PC, Laptop, TV Box, Android MobilePhones, 6.5Ft USB Cable</p>                <div class="buy-now">            <button>ADD TO CART</button>        </div>        <div class="wish-list">            <button>ADDTO WISHLIST</button>
+    </article>
+</main>
+<div class="container">
+    <article class="post">
+        <section class="product-feature">
+            <h2>Featured Product</h2>
+            <img src="d.jpg" alt="Featured Product">
+            <p>This month's must-have item! Shop now and enjoy exclusive discounts.</p>
+            <a href="index.html" class="btn">Shop Now</a>
+        </section>
+
+        <section class="review">
+            <h3>Customer Reviews</h3>
+            <p>"I absolutely love my purchase from E-Commerce Hub. The quality is superb and the service was excellent!" - Jane Doe</p>
+            <p>"Fast shipping and great prices. I'll definitely be a returning customer." - John Smith</p>
+        </section>
+
+        <section class="call-to-action">
+            <h2>Ready to Shop Smart?</h2>
+            <p>Find the best deals and exclusive offers only at E-Commerce Hub. Start shopping now!</p>
+            <a href="products.html">Shop Now</a>
+        </section>
+    </article>
+
+    <div class="comments">
+        <h3>Comments</h3>
+        <p>Add a comment:</p>
+        <form id="commentForm">
+            <textarea id="comment" placeholder="Write your comment here..." rows="4"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="commentSection">
+            <!-- Comments will be displayed here -->
+        </div>
+    </div>
+</div>
+<footer>
+    <p>Copyright &copy; 2024 James Ecommerce Website. All rights reserved.</p>
+</footer>
+<script src="unfiy.js"></script>
+</body>
+</html>
