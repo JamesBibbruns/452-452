@@ -218,3 +218,21 @@ div.desc {
         .buy-now button:hover {
             background-color: #45a049;
         }
+h1, h2 {
+            color: white;
+        }
+        .support-flowchart {
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            background-color: #ebebeb;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .contact-info h3 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        table, th, td {
+        border:1px solid black;
+        }
