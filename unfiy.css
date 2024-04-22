@@ -286,3 +286,49 @@ h1, h2 {
         width: 100px; /* Adjust the width as needed */
         height: 100px;
     }
+.container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .about-content {
+            padding: 30px;
+        }
+        .about-content h2 {
+            margin-top: 30px;
+            font-size: 1.8em;
+        }
+        .about-content p {
+            line-height: 1.6;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        .team-section {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        .team-member {
+            text-align: center;
+            max-width: 150px;
+            margin: 0 auto;
+        }
+        .team-member img {
+            width: 100%;
+            border-radius: 50%;
+        }
+        .team-member h3 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .team-member p {
+            font-style: italic;
+            color: #777;
+        }
