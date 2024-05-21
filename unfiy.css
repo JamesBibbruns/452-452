@@ -411,3 +411,17 @@ h1, h2 {
         .call-to-action a:hover {
             background: #e8491d;
         }
+        .article h1, .article h2 {
+            margin-bottom: 1rem;
+        }
+        .support-flow img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 2rem auto;
+            animation: fadeIn 2s ease-in-out; /* Simple animation for image appearance */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
