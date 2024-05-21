@@ -425,3 +425,50 @@ h1, h2 {
             from { opacity: 0; }
             to { opacity: 1; }
         }
+/* Footer base styles */
+.footer-content {
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* Light text color for contrast */
+    padding: 20px 0; /* Padding top and bottom */
+    text-align: center; /* Center align text */
+}
+
+.footer-content p {
+    margin-bottom: 10px; /* Space below the paragraph */
+}
+
+/* Social media link styles */
+.footer-content a {
+    color: wheat; /* Color specified in the HTML */
+    text-decoration: none; /* Removes underline from links */
+    margin: 0 10px; /* Space between links */
+    transition: color 0.3s ease; /* Smooth color transition for hover effect */
+}
+
+.footer-content a:hover {
+    color: #ffd700; /* Gold color on hover for a nice effect */
+}
+
+/* Contact details styles */
+address {
+    background-color: #444; /* Slightly lighter background for the contact details */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding inside the address */
+    margin-top: 20px; /* Space above the contact details from the social media links */
+    text-align: center; /* Center align text */
+}
+
+address p {
+    margin: 5px 0; /* Smaller margins for the contact details */
+}
+
+/* Email link within the address */
+address a {
+    color: wheat; /* Color specified in the HTML */
+    text-decoration: none; /* Removes underline from links */
+    transition: color 0.3s ease; /* Smooth color transition for hover effect */
+}
+
+address a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
