@@ -425,50 +425,61 @@ h1, h2 {
             from { opacity: 0; }
             to { opacity: 1; }
         }
-/* Footer base styles */
+
+
+
+/* Center the footer content */
 .footer-content {
-    background-color: #333; /* Dark background for the footer */
-    color: white; /* Light text color for contrast */
+    width: 100%; /* Set a width to ensure the footer spans the full width of the container */
+    margin: 0 auto; /* Center the footer content horizontally */
     padding: 20px 0; /* Padding top and bottom */
     text-align: center; /* Center align text */
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* Light text color for contrast */
 }
 
-.footer-content p {
-    margin-bottom: 10px; /* Space below the paragraph */
+/* Center the social media links */
+.footer-content .social-links {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the links horizontally */
+    margin: 0 auto; /* Center the footer content horizontally */
+    padding: 10px 0; /* Padding top and bottom */
 }
 
 /* Social media link styles */
-.footer-content a {
-    color: wheat; /* Color specified in the HTML */
-    text-decoration: none; /* Removes underline from links */
-    margin: 0 10px; /* Space between links */
+.footer-content .social-links a {
+    color: wheat; /* Light color for links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 5px; /* Space between links */
     transition: color 0.3s ease; /* Smooth color transition for hover effect */
 }
 
-.footer-content a:hover {
-    color: #ffd700; /* Gold color on hover for a nice effect */
+.footer-content .social-links a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+/* Center the contact details */
+.address-content {
+    width: 100%; /* Set a width to ensure the contact details span the full width of the container */
+    margin: 10px auto; /* Space above and below the contact details */
+    padding: 10px 0; /* Padding top and bottom */
+    text-align: center; /* Center align text */
+    background-color: #444; /* Slightly lighter background for the contact details */
+    color: white; /* Text color */
 }
 
 /* Contact details styles */
-address {
-    background-color: #444; /* Slightly lighter background for the contact details */
-    color: white; /* Text color */
-    padding: 10px 20px; /* Padding inside the address */
-    margin-top: 20px; /* Space above the contact details from the social media links */
-    text-align: center; /* Center align text */
-}
-
-address p {
+.address-content p {
     margin: 5px 0; /* Smaller margins for the contact details */
 }
 
 /* Email link within the address */
-address a {
-    color: wheat; /* Color specified in the HTML */
-    text-decoration: none; /* Removes underline from links */
+.address-content a {
+    color: wheat; /* Light color for the email link */
+    text-decoration: none; /* Remove underline from links */
     transition: color 0.3s ease; /* Smooth color transition for hover effect */
 }
 
-address a:hover {
+.address-content a:hover {
     color: #ffd700; /* Gold color on hover */
 }
