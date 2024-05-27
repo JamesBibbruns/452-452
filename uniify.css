@@ -33,6 +33,7 @@ footer {
     font-family: 'Arial', sans-serif;
     /* Adjust the font size for better readability */
     font-size: 1rem;
+    text-align: center;
 }
 
 /* Style for links within the footer */
