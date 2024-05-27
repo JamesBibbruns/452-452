@@ -527,3 +527,30 @@ h1, h2 {
 .address-content a:hover {
     color: #ffd700; /* Gold color on hover */
 }
+
+
+.whole{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+.Left{
+    width: 22.5%;
+    height: 100%;
+    background-color: grey;
+    margin-left: 20px;
+}
+.Middle{
+    width: 55%;
+    height: 100%; 
+    background-color: grey;
+    margin-left: 20px;        
+    margin-right: 20px;
+}
+.Right{
+    width: 22.5%;
+    height: 100%;
+    background-color: grey;
+    margin-right: 20px;
+}
