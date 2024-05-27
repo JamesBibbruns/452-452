@@ -547,14 +547,14 @@ h1, h2 {
 }
 .Middle{
     width: 55%;
-    height: 671.5px; 
+    height: 631px; 
     background-color: rgb(24, 163, 128);
     margin-left: 20px;        
     margin-right: 20px;
 }
 .Right{
     width: 22.5%;
-    height: 671.5px;
+    height: 631px;
     background-color: rgb(125, 152, 41);
     margin-right: 20px;
 }
