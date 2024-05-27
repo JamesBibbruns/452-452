@@ -530,9 +530,17 @@ h1, h2 {
     color: #ffd700; /* Gold color on hover */
 }
 
+
+.whole{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .Left{
     width: 22.5%;
-    height: 671px;
+    height: 100%;
     background-color: rgb(74, 68, 161);
     margin-left: 20px;
 }
@@ -545,16 +553,9 @@ h1, h2 {
 }
 .Right{
     width: 22.5%;
-    height: 100%;
+    height: 671.5px;
     background-color: rgb(125, 152, 41);
     margin-right: 20px;
-}
-.whole{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 /*
 .Left{
