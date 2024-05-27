@@ -534,6 +534,7 @@ h1, h2 {
     height: 100%;
     display: flex;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .Left{
     width: 22.5%;
