@@ -27,65 +27,13 @@ main {
     padding: 2em;
 }
 footer {
-    /* Set a new background color, for example, a shade of blue */
-    background-color: #4A90E2;
-    /* Keep the text color white for high contrast against the dark background */
-    color: #FFFFFF;
-    /* Change text alignment to the left */
-    text-align: left;
-    /* Adjust padding for more space around the content */
-    padding: 2em 1em;
-    /* Position the footer at the bottom of the page */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
     position: relative;
     bottom: 0;
-    /* Make the footer full width */
     width: 100%;
-    /* Use Flexbox for a flexible and responsive layout */
-    display: flex;
-    /* Distribute space between items */
-    justify-content: space-between;
-    /* Align items vertically in the center */
-    align-items: center;
-    /* Add a subtle shadow to give depth to the footer */
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-    /* Update the font family for a modern look */
-    font-family: 'Arial', sans-serif;
-    /* Adjust the font size for better readability */
-    font-size: 1rem;
-    text-align: center;
-}
-
-/* Style for links within the footer */
-footer a {
-    /* Keep the link color white */
-    color: #FFFFFF;
-    /* Remove the underline from links */
-    text-decoration: none;
-    /* Transition effect for color change */
-    transition: color 0.3s ease;
-}
-
-/* Style for hover state of links */
-footer a:hover {
-    /* Change link color on hover for better interactivity */
-    color: #E8E8E8;
-}
-
-/* Container for social media icons */
-footer .social-icons {
-    /* Use flex display for the icons */
-    display: flex;
-    /* Add gap between icons */
-    gap: 1em;
-}
-
-/* Style for SVG icons */
-footer .social-icons svg {
-    /* Set the fill color of the icons to white */
-    fill: #FFFFFF;
-    /* Define the size of the icons */
-    width: 24px;
-    height: 24px;
 }
 header img{
     position: absolute;
