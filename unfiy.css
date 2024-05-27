@@ -1,4 +1,4 @@
-/'James Ren Huaiyuan'/
+/*James Ren Huaiyuan*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -26,14 +26,55 @@ nav a:hover {
 main {
     padding: 2em;
 }
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+/* Footer styles */  
+footer {  
+    background: linear-gradient(to right, #21498d, #051030); /* Use a gradient background */  
+    color: white;  
+    text-align: center;  
+    padding: 2em 0; /* Increase vertical padding */  
+    position: relative;  
+    bottom: 0;  
+    width: 100%;  
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Add a shadow */  
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Add a top border */  
+    font-family: 'Roboto', sans-serif; /* Use the Roboto font, fallback to sans-serif */  
+    line-height: 1.5; /* Adjust line height for better readability */  
+}  
+  
+/* Link styles within the footer */  
+footer a {  
+    color: #999; /* Link color */  
+    text-decoration: none; /* Remove underline */  
+    transition: color 0.3s ease; /* Add a transition effect */  
+    font-family: 'Roboto', sans-serif; /* Ensure links use the same font */  
+}  
+  
+footer a:hover {  
+    color: white; /* Hover color for links */  
+}  
+  
+/* Assuming you have a logo and social icons in the footer */  
+footer .logo {  
+    display: block;  
+    margin-bottom: 1em; /* Add bottom spacing */  
+    /* If the logo is an image, you may not need to specify font styles */  
+}  
+  
+footer .social-icons {  
+    display: flex;  
+    justify-content: center; /* Center horizontally */  
+    margin-top: 1em; /* Add top spacing */  
+    font-size: 1.5em; /* Icon size (if using font icons) */  
+}  
+  
+footer .social-icons a {  
+    margin: 0 0.5em; /* Spacing between icons */  
+    /* If the icons are SVGs or images, you may not need to specify font styles */  
+}  
+  
+/* If there are other specific text elements in the footer, you can specify font styles for them as well */  
+footer h1, footer h2, footer p {  
+    font-family: 'Roboto', sans-serif; /* Ensure all text elements use the same font */  
 }
 header img{
     position: absolute;
