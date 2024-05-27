@@ -53,15 +53,13 @@ footer a {
 footer a:hover {  
     color: white; /* Hover color for links */  
 }  
-  
-/* Assuming you have a logo and social icons in the footer */  
-footer .logo {  
+
+footer .logo img {
+    max-width: 100px; /* Adjust width as needed */  
+    height: auto; /* Maintain aspect ratio */  
+    /*center image*/  
     display: block;  
-    margin-bottom: 1em; /* Add bottom spacing */  
-    /* If the logo is an image, you may not need to specify font styles */  
-    width: 50px; /* Set a specific width if needed */  
-    height: 50px;
-    margin-left: auto;
+    margin-left: auto;  
     margin-right: auto;
 }
 footer .social-icons {  
