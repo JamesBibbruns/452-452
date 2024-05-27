@@ -41,7 +41,7 @@ footer {
     font-family: 'Roboto', sans-serif; /* Use the Roboto font, fallback to sans-serif */  
     line-height: 1.5; /* Adjust line height for better readability */  
     height: 15%; /* Set a minimum height for the footer */  
-    margin-top: 30px;
+    margin-top: 50px;
 }  
   
 /* Link styles within the footer */  
